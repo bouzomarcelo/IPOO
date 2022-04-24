@@ -238,7 +238,7 @@ function main(){
                         $arrListaCorta=$objViaje->cortaListaPasajeros();
                         if(count($arrListaCorta)>0){
                             cartel("Pasajeros Eliminados");
-                            echo Viaje::mostrarListaCorta($arrListaCorta);
+                            echo $objViaje->mostrarListaCorta($arrListaCorta);
                         }
                     }else{
                         $objViaje=$objViajeBKP;
