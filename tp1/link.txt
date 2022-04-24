@@ -1,2 +1,0 @@
-https://github.com/bouzomarcelo/IPOO.git
-https://gitlab.com/bouzomarcelo/ipoo.git
